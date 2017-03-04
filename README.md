@@ -111,7 +111,7 @@ According to above DEMO:-
 <pre><code>    &lt;com.developers.coolprogressviews.ColorfulProgress
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:circleColor1="30dp"
+        app:circleColor1="@android:color/holo_red_dark"
         app:circleColor2="@android:color/holo_red_dark"
         app:circleColor3="@android:color/holo_red_dark"
         app:circleColor4="@android:color/holo_red_dark"
@@ -158,7 +158,7 @@ According to above DEMO:-
         android:layout_height="wrap_content"
         app:innerCircleRadius="30dp"
         app:innerCircleColor="@android:color/holo_red_dark"
-        app:movingArcRadius="@android:color/holo_red_dark"
+        app:movingArcRadius="50dp"
         app:movinArcColor="@android:color/holo_red_dark"
         /&gt;
 </code></pre>
@@ -201,8 +201,8 @@ According to above DEMO:-
 <pre><code>    &lt;com.developers.coolprogressviews.DoubleArcProgress
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:insideArcRadius="30dp"
-        app:outsideArcRadius="@android:color/holo_red_dark"
+        app:insideArcRadius="50dp"
+        app:outsideArcRadius="100dp"
         app:insideArcColor="@android:color/holo_red_dark"
         app:outsideArcColor="@android:color/holo_red_dark"
         /&gt;
