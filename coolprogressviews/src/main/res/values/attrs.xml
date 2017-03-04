@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleWithArcProgress">
+        <attr name="radius1" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="arcColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulProgress">
+        <attr name="circleColor1" format="color"/>
+        <attr name="circleColor2" format="color"/>
+        <attr name="circleColor3" format="color"/>
+        <attr name="circleColor4" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="DoubleArcProgress">
+        <attr name="insideArcRadius" format="dimension"/>
+        <attr name="outsideArcRadius" format="dimension"/>
+        <attr name="insideArcColor" format="color"/>
+        <attr name="outsideArcColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleArcProgress">
+        <attr name="arcRadius" format="dimension"/>
+        <attr name="colorofArc" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="StaticCircleProgress">
+        <attr name="innerCircleRadius" format="dimension"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="movingArcRadius" format="dimension"/>
+        <attr name="movinArcColor" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developers.viewprogress.MainActivity">
+<com.developers.coolprogressviews.CircleWithArcProgress
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/progress1"/>
+ <com.developers.coolprogressviews.ColorfulProgress
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:id="@+id/progress2"
+     android:layout_below="@+id/progress1"/>
+    <com.developers.coolprogressviews.DoubleArcProgress
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/progress2"
+        android:id="@+id/progress3"/>
+    <com.developers.coolprogressviews.SimpleArcProgress
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/progress1"
+        android:id="@+id/progress4"/>
+
+    <com.developers.coolprogressviews.StaticCircleProgress
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/progress5"
+        android:layout_below="@+id/progress4"
+        android:layout_toRightOf="@+id/progress2"
+        android:layout_toEndOf="@+id/progress2" />
+
+
+</RelativeLayout>
