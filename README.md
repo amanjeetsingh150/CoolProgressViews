@@ -2,6 +2,7 @@
 Android library with collection of cool progress views.
 <br><br>
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CoolProgressViews-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5397)
+<br><br>Also Mention in: <a href="https://android.libhunt.com/project/coolprogressviews">Android Library Hunt</a>
 #DEMO
 <img src="https://cloud.githubusercontent.com/assets/12881364/23580783/04e3ba40-012e-11e7-9580-f65891f222aa.gif"><br><br>
 
