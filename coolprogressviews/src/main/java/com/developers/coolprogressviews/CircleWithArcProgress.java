@@ -44,6 +44,7 @@ public class CircleWithArcProgress extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        paint.setFlags(Paint.ANTI_ALIAS_FLAG);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(15);
         paint.setColor(circleColor);
@@ -61,7 +62,7 @@ public class CircleWithArcProgress extends View {
               startAngle+=10;
           }
             else{
-              startAngle=0;
+              startAngle=1;
           }
             invalidate();
             postDelayed(this,30);

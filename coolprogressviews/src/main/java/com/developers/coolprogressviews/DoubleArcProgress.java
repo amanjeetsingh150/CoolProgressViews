@@ -49,6 +49,7 @@ public class DoubleArcProgress extends View {
     @Override
     protected void onDraw(final Canvas canvas) {
         super.onDraw(canvas);
+        paint.setFlags(Paint.ANTI_ALIAS_FLAG);
         paint.setColor(outsideArcColor);
         paint.setStrokeWidth(12);
         oval.set(getWidth()/2-outsideRadius,getHeight()/2-outsideRadius,getWidth()/2+outsideRadius,getHeight()/2+outsideRadius);
@@ -67,9 +68,9 @@ public class DoubleArcProgress extends View {
               startAngle1+=10;
           }
             else {
-              startAngle1=0;
+              startAngle1=1;
           }
-            if(startAngle2>=0){
+            if(startAngle2>=1){
                 startAngle2-=10;
             }
             else {

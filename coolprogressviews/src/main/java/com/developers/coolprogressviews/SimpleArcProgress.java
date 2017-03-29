@@ -43,6 +43,7 @@ public class SimpleArcProgress extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        paint.setFlags(Paint.ANTI_ALIAS_FLAG);
         paint.setColor(colorArc);
         paint.setStrokeWidth(7);
         oval.set(getWidth()/2-rad,getHeight()/2-rad,getWidth()/2+rad,getHeight()/2+rad);
@@ -55,7 +56,7 @@ public class SimpleArcProgress extends View {
                 startAngle+=10;
             }
             else{
-                startAngle=0;
+                startAngle=1;
             }
             invalidate();
             postDelayed(this,30);

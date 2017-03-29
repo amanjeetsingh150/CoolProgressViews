@@ -53,6 +53,7 @@ public class ColorfulProgress extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        paint.setFlags(Paint.ANTI_ALIAS_FLAG);
         paint.setColor(InsideCircleColor1);
         canvas.drawCircle(circle1.x,circle1.y,8,paint);
 
