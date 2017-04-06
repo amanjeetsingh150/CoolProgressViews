@@ -1,5 +1,6 @@
 # CoolProgressViews
-Android library with collection of cool progress views.
+Android library with collection of cool progress views.<br><br>
+<a href="https://www.youtube.com/watch?v=mihMiKRmJ5Q">DEMO LINK</a>
 <br><br>
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CoolProgressViews-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5397)
 <br><br>Also Mention in: 
@@ -7,10 +8,10 @@ Android library with collection of cool progress views.
     <li><a href="https://android.libhunt.com/project/coolprogressviews">Android Library Hunt</a></li>
     <li><a href="https://material.uplabs.com/posts/coolprogressviews">MaterialUp</a></li>
 </ul>
-#DEMO
+DEMO
 <img src="https://cloud.githubusercontent.com/assets/12881364/23580783/04e3ba40-012e-11e7-9580-f65891f222aa.gif"><br><br>
 
-#DOWNLOAD
+DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
 <pre><code>allprojects {
@@ -247,10 +248,10 @@ According to above DEMO:-
 </table>
 
 <br><br>
-#DEVELOPERS
+DEVELOPERS<br>
 <a href="https://github.com/amanjeetsingh150">Amanjeet Singh</a>
 <br><br>
-#LICENSE
+LICENSE
 <br>
 <pre><code>Copyright 2017 Amanjeet Singh
 
