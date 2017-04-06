@@ -11,7 +11,7 @@ Android library with collection of cool progress views.<br><br>
 DEMO
 <img src="https://cloud.githubusercontent.com/assets/12881364/23580783/04e3ba40-012e-11e7-9580-f65891f222aa.gif"><br><br>
 
-DOWNLOAD
+<b>DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
 <pre><code>allprojects {
@@ -248,10 +248,10 @@ According to above DEMO:-
 </table>
 
 <br><br>
-DEVELOPERS<br>
+<b>DEVELOPERS<br>
 <a href="https://github.com/amanjeetsingh150">Amanjeet Singh</a>
 <br><br>
-LICENSE
+<b>LICENSE
 <br>
 <pre><code>Copyright 2017 Amanjeet Singh
 
